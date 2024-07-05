@@ -16,6 +16,8 @@ pub fn writing_file() {
 
     file.write_all(text.as_bytes())
         .expect("Unable to write to file");
+
+    println!("File text writed:\n{}", text);
 }
 
 pub fn reading_file() {
@@ -23,5 +25,5 @@ pub fn reading_file() {
 
     let text = fs::read_to_string("my_file.txt").expect("Unable to read file");
 
-    println!("File content:\n{}", text);
+    println!("File text:\n{}", text);
 }

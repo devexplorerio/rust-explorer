@@ -1,5 +1,11 @@
 use colored::*;
 
+
+/* 
+    While use cases:
+    - Continue repeating a block of code as long as a condition is true.
+*/ 
+
 pub fn while_diff() {
     println!("\n{}", "while_diff fn:".bold().blue());
 

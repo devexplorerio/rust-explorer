@@ -32,6 +32,10 @@ fn main() {
     fors::for_basic();
     fors::for_index();
     fors::for_break();
+    fors::for_range();
+    fors::for_nested();
+    fors::for_nested_mut();
+    fors::for_calc();
     matches::match_dest();
     structs::object_person();
     files::writing_file();

@@ -1,5 +1,10 @@
 use colored::*;
 
+/* 
+    If controls whether or not to execute a certain block of code, 
+    based on conditions the program evaluates during runtime.
+ */
+
 pub fn if_else() {
     println!("\n{}", "if_else fn:".bold().blue());
 
