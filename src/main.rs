@@ -34,7 +34,7 @@ fn main() {
     fors::for_break();
     matches::match_dest();
     structs::object_person();
-    // files::reading_file();
     files::writing_file();
+    files::reading_file();
 }
 
