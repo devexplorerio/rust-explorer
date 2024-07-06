@@ -1,22 +1,22 @@
 
-#[path = "0_intro/hello.rs"] mod hello;
+#[path = "00_intro/hello.rs"] mod hello;
 
-#[path = "1_data_type/types.rs"] mod types;
-#[path = "1_data_type/variables.rs"] mod variables;
-#[path = "1_data_type/arithmetic.rs"] mod arithmetic;
-#[path = "1_data_type/consts.rs"] mod consts;
-#[path = "1_data_type/enums.rs"] mod enums;
-#[path = "1_data_type/structs.rs"] mod structs;
+#[path = "01_data_type/types.rs"] mod types;
+#[path = "01_data_type/variables.rs"] mod variables;
+#[path = "01_data_type/arithmetic.rs"] mod arithmetic;
+#[path = "01_data_type/consts.rs"] mod consts;
+#[path = "01_data_type/enums.rs"] mod enums;
+#[path = "01_data_type/structs.rs"] mod structs;
 
-#[path = "2_function/fns.rs"] mod fns;
+#[path = "02_function/fns.rs"] mod fns;
 
-#[path = "3_flow_control/ifs.rs"] mod ifs;
-#[path = "3_flow_control/loops.rs"] mod loops;
-#[path = "3_flow_control/whiles.rs"] mod whiles;
-#[path = "3_flow_control/fors.rs"] mod fors;
-#[path = "3_flow_control/matches.rs"] mod matches;
+#[path = "03_flow_control/ifs.rs"] mod ifs;
+#[path = "03_flow_control/loops.rs"] mod loops;
+#[path = "03_flow_control/whiles.rs"] mod whiles;
+#[path = "03_flow_control/fors.rs"] mod fors;
+#[path = "03_flow_control/matches.rs"] mod matches;
 
-#[path = "9_file/files.rs"] mod files;
+#[path = "09_file/files.rs"] mod files;
 
 fn main() {
     hello::hello_world();
