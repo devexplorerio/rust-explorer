@@ -9,7 +9,7 @@ pub fn writing_file() {
 
     let mut file = OpenOptions::new()
         .append(true) // true to append, false to overwrite file content
-        .open("my_file.txt")
+        .open("src/9_file/my_file.txt")
         .expect("Unable to open file");
 
     let text = " We're making it happen!";
@@ -17,13 +17,13 @@ pub fn writing_file() {
     file.write_all(text.as_bytes())
         .expect("Unable to write to file");
 
-    println!("File text writed:\n{}", text);
+    println!("File text wrote:\n{}", text);
 }
 
 pub fn reading_file() {
     println!("\n{}", "reading_file fn:".bold().color("blue"));
 
-    let text = fs::read_to_string("my_file.txt").expect("Unable to read file");
+    let text = fs::read_to_string("src/9_file/my_file.txt").expect("Unable to read file");
 
     println!("File text:\n{}", text);
 }
